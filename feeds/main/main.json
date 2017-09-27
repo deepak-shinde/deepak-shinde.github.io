@@ -83,7 +83,7 @@
     {
       "name": "Google",
       "src": "https://deepak-shinde.github.io/feeds/main/main.json",
-      "url": [
+      "protected": [
         {
           "url": "https://accounts.google.com/signin/v2/identifier"
         },
@@ -116,9 +116,9 @@
       ]
     },
     {
-      "site": "Amazon",
+      "name": "Amazon",
       "src": "https://deepak-shinde.github.io/feeds/main/main.json",
-      "url": [
+      "protected": [
         {
           "url": "https://www.amazon.in/ap/signin"
         },
@@ -228,7 +228,7 @@
     {
       "name": "Dropbox",
       "src": "https://deepak-shinde.github.io/feeds/main/main.json",
-      "url": [
+      "protected": [
         {
           "url": "https://www.dropbox.com/"
         },
