@@ -8,13 +8,13 @@ data_hash["sites"].each do |h|
       h["templates"].each do |template|
         print template
         sha1 = Digest::SHA256.hexdigest(template["image"])
-        template["sha256"] = sha1
+        template["checksum"] = sha1
       end
     end
 end
 
 File.open('main.json', "w") do |f|
-f.write(JSON.pretty_generate(data_hash))
+  f.write(JSON.pretty_generate(data_hash))
 end
 
 
