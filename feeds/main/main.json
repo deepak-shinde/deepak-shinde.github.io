@@ -1,264 +1,266 @@
 {
-    "name": "default-feed",
-    "url": "http://spotphish.github.io/feeds/main/main.json",
-    "schema": "1.0",
-    "version": "20170919140494",
-    "sites": [
+  "name": "default-feed",
+  "url": "https://deepak-shinde.github.io/feeds/main/main.json",
+  "schema": "1.0",
+  "version": "20170919140494",
+  "sites": [
+    {
+      "name": "Facebook",
+      "src": "https://deepak-shinde.github.io/feeds/main/main.json",
+      "protected": [
         {
-            "name": "Facebook",
-            "src": "http://spotphish.github.io/feeds/main/main.json",
-            "protected": [
-                {
-                    "url": "https://www.facebook.com/",
-                    "login_check": {
-                        "password": 2
-                    }
-                },
-                {
-                    "url": "https://www.facebook.com/login/"
-                },
-                {
-                    "url": "https://www.facebook.com/reg/"
-                },
-                {
-                    "url": "https://www.facebook.com/login.php",
-                    "deleted": true
-                }
-            ],
-            "templates": [
-                {
-                    "name": "Facebook",
-                    "image": "https://spotphish.github.io/feeds/main/images/fb-logo_lnx.png",
-                    "sha256": "3t3utjkjnskjns"
-                },
-                {
-                    "name": "Facebook pre 2016",
-                    "image": "assets/img/fb-old.png",
-                    "sha256": "3t3utjkjnskjns",
-                    "deleted": true
-                }
-            ],
-            "safe": [
-                {
-                    "domain": "www.facebook.com"
-                },
-                {
-                    "domain": "www.en.facebook.com"
-                }
-            ]
+          "url": "https://www.facebook.com/",
+          "login_check": {
+            "password": 2
+          }
         },
         {
-            "name": "Paypal",
-            "src": "http://spotphish.github.io/feeds/main/main.json",
-            "protected": [
-                {
-                    "url": "https://www.paypal.com/in/signin"
-                },
-                {
-                    "url": "https://www.paypal.com/us/cgi-bin"
-                },
-                {
-                    "url": "https://www.paypal.com/signin"
-                },
-                {
-                    "url": "https://www.paypal.com/jp/signin"
-                },
-                {
-                    "url": "https://www.paypal.com/signin/authorize"
-                }
-            ],
-            "templates": [
-                {
-                    "name": "Paypal",
-                    "image": "https://spotphish.github.io/feeds/main/images/paypal-linux.png",
-                    "sha256": "..."
-                }
-            ],
-            "safe": [
-                {
-                    "domain": "paypal.com"
-                }
-            ]
+          "url": "https://www.facebook.com/login/"
         },
         {
-            "name": "Google",
-            "src": "http://spotphish.github.io/feeds/main/main.json",
-            "url": [
-                {
-                    "url": "https://accounts.google.com/signin/v2/identifier"
-                },
-                {
-                    "url": "https://accounts.google.com/signin/oauth/identifier"
-                },
-                {
-                    "url": "https://accounts.google.com/signin/v2/sl/pwd"
-                }
-            ],
-            "templates": [
-                {
-                    "name": "Google 2016",
-                    "image": "https://spotphish.github.io/feeds/main/images/google-old.png",
-                    "sha256": "3t3utjkjnskjns"
-                },
-                {
-                    "name": "Google mid 2017",
-                    "image": "https://spotphish.github.io/feeds/main/images/google-logo.png",
-                    "sha256": "3t3utjkjnskjns"
-                }
-            ],
-            "safe": [
-                {
-                    "domain": "google.com"
-                },
-                {
-                    "domain": "google.co.in"
-                }
-            ]
+          "url": "https://www.facebook.com/reg/"
         },
         {
-            "site": "Amazon",
-            "src": "http://spotphish.github.io/feeds/main/main.json",
-            "url": [
-                {
-                    "url": "https://www.amazon.in/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.com/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.co.uk/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.com.au/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.co.jp/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.cn/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.sg/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.fr/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.de/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.it/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.nl/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.es/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.ca/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.com.mx/ap/signin"
-                },
-                {
-                    "url": "https://www.amazon.com.br/ap/signin"
-                }
-            ],
-            "templates": [
-                {
-                    "name": "Amazon",
-                    "image": "https://spotphish.github.io/feeds/main/images/amazon-logo.png",
-                    "sha256": "3t3utjkjnskjns"
-                },
-                {
-                    "name": "AWS",
-                    "image": "https://spotphish.github.io/feeds/main/images/aws-logo.png",
-                    "sha256": "3t3utjkjnskjns"
-                }
-            ],
-            "safe": [
-                {
-                    "domain": "amazon.com"
-                },
-                {
-                    "domain": "amazon.in"
-                },
-                {
-                    "domain": "amazon.co.uk"
-                },
-                {
-                    "domain": "amazon.com.au"
-                },
-                {
-                    "domain": "amazon.co.jp"
-                },
-                {
-                    "domain": "amazon.sn"
-                },
-                {
-                    "domain": "amazon.sg"
-                },
-                {
-                    "domain": "amazon.fr"
-                },
-                {
-                    "domain": "amazon.dl"
-                },
-                {
-                    "domain": "amazon.ne"
-                },
-                {
-                    "domain": "amazon.se"
-                },
-                {
-                    "domain": "amazon.et"
-                },
-                {
-                    "domain": "amazon.ca"
-                },
-                {
-                    "domain": "amazon.com.mix"
-                },
-                {
-                    "domain": "amazon.com.br"
-                }
-            ]
-        },
-        {
-            "name": "Dropbox",
-            "src": "http://spotphish.github.io/feeds/main/main.json",
-            "url": [
-                {
-                    "url": "https://www.dropbox.com/"
-                },
-                {
-                    "url": "https://www.dropbox.com/business"
-                }
-            ],
-            "templates": [
-                {
-                    "name": "Dropbox-1",
-                    "image": "https://spotphish.github.io/feeds/main/images/db1.png"
-                },
-                {
-                    "name": "Dropbox-2",
-                    "image": "https://spotphish.github.io/feeds/main/images/db2.png"
-                }
-            ],
-            "safe": [
-                {
-                    "domain": "dropbox.com"
-                }
-            ]
-        },
-        {
-            "name": "wikipedia",
-            "safe": [
-                {
-                    "domain": "wikipedia.org"
-                }
-            ]
+          "url": "https://www.facebook.com/login.php",
+          "deleted": true
         }
-    ]
+      ],
+      "templates": [
+        {
+          "name": "Facebook",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/fb-logo_lnx.png",
+          "sha256": "d4a727986420faac68c45aeff948f182968788047f3c9e2cefaa4231033a3b9e"
+        },
+        {
+          "name": "Facebook pre 2016",
+          "image": "assets/img/fb-old.png",
+          "sha256": "2a5ff9006c143bbfbd21ff971a9b1454871a2abe2189ab4eae2e0a09a48629cb",
+          "deleted": true
+        }
+      ],
+      "safe": [
+        {
+          "domain": "www.facebook.com"
+        },
+        {
+          "domain": "www.en.facebook.com"
+        }
+      ]
+    },
+    {
+      "name": "Paypal",
+      "src": "https://deepak-shinde.github.io/feeds/main/main.json",
+      "protected": [
+        {
+          "url": "https://www.paypal.com/in/signin"
+        },
+        {
+          "url": "https://www.paypal.com/us/cgi-bin"
+        },
+        {
+          "url": "https://www.paypal.com/signin"
+        },
+        {
+          "url": "https://www.paypal.com/jp/signin"
+        },
+        {
+          "url": "https://www.paypal.com/signin/authorize"
+        }
+      ],
+      "templates": [
+        {
+          "name": "Paypal",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/paypal-linux.png",
+          "sha256": "488377a4467f60e279e93fce31063091076d414da10f8145610210599b02ceee"
+        }
+      ],
+      "safe": [
+        {
+          "domain": "paypal.com"
+        }
+      ]
+    },
+    {
+      "name": "Google",
+      "src": "https://deepak-shinde.github.io/feeds/main/main.json",
+      "url": [
+        {
+          "url": "https://accounts.google.com/signin/v2/identifier"
+        },
+        {
+          "url": "https://accounts.google.com/signin/oauth/identifier"
+        },
+        {
+          "url": "https://accounts.google.com/signin/v2/sl/pwd"
+        }
+      ],
+      "templates": [
+        {
+          "name": "Google 2016",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/google-old.png",
+          "sha256": "eae2d41d1d199d57ee6515953a143596572f425cb8217cd4912165d535686a9d"
+        },
+        {
+          "name": "Google mid 2017",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/google-logo.png",
+          "sha256": "9e1328a484065a4b5e37e78318ced3d284c989a3f8dbfa898a33aad8ce083765"
+        }
+      ],
+      "safe": [
+        {
+          "domain": "google.com"
+        },
+        {
+          "domain": "google.co.in"
+        }
+      ]
+    },
+    {
+      "site": "Amazon",
+      "src": "https://deepak-shinde.github.io/feeds/main/main.json",
+      "url": [
+        {
+          "url": "https://www.amazon.in/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.com/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.co.uk/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.com.au/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.co.jp/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.cn/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.sg/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.fr/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.de/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.it/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.nl/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.es/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.ca/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.com.mx/ap/signin"
+        },
+        {
+          "url": "https://www.amazon.com.br/ap/signin"
+        }
+      ],
+      "templates": [
+        {
+          "name": "Amazon",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/amazon-logo.png",
+          "sha256": "36f9b0d596baeb86de96d280d8aea07823cbc721a061ed50175787be44a5d408"
+        },
+        {
+          "name": "AWS",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/aws-logo.png",
+          "sha256": "1bc597bd41be741075033a872bff81ee74d8aa88097903166748086096b7ecff"
+        }
+      ],
+      "safe": [
+        {
+          "domain": "amazon.com"
+        },
+        {
+          "domain": "amazon.in"
+        },
+        {
+          "domain": "amazon.co.uk"
+        },
+        {
+          "domain": "amazon.com.au"
+        },
+        {
+          "domain": "amazon.co.jp"
+        },
+        {
+          "domain": "amazon.sn"
+        },
+        {
+          "domain": "amazon.sg"
+        },
+        {
+          "domain": "amazon.fr"
+        },
+        {
+          "domain": "amazon.dl"
+        },
+        {
+          "domain": "amazon.ne"
+        },
+        {
+          "domain": "amazon.se"
+        },
+        {
+          "domain": "amazon.et"
+        },
+        {
+          "domain": "amazon.ca"
+        },
+        {
+          "domain": "amazon.com.mix"
+        },
+        {
+          "domain": "amazon.com.br"
+        }
+      ]
+    },
+    {
+      "name": "Dropbox",
+      "src": "https://deepak-shinde.github.io/feeds/main/main.json",
+      "url": [
+        {
+          "url": "https://www.dropbox.com/"
+        },
+        {
+          "url": "https://www.dropbox.com/business"
+        }
+      ],
+      "templates": [
+        {
+          "name": "Dropbox-1",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/db1.png",
+          "sha256": "b7b6705da70a8cc7c731b040afcffa1bd929c7a578d00b9448b3954302be1e13"
+        },
+        {
+          "name": "Dropbox-2",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/db2.png",
+          "sha256": "6e2d61093405ac6c252fcb7d195867e093707ebf07f09f5ba11cbdf125d4687d"
+        }
+      ],
+      "safe": [
+        {
+          "domain": "dropbox.com"
+        }
+      ]
+    },
+    {
+      "name": "wikipedia",
+      "safe": [
+        {
+          "domain": "wikipedia.org"
+        }
+      ]
+    }
+  ]
 }
