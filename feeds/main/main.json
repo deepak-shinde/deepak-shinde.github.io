@@ -1,0 +1,264 @@
+{
+    "name": "default-feed",
+    "url": "http://spotphish.github.io/feeds/main/main.json",
+    "schema": "1.0",
+    "version": "20170919140494",
+    "sites": [
+        {
+            "name": "Facebook",
+            "src": "http://spotphish.github.io/feeds/main/main.json",
+            "protected": [
+                {
+                    "url": "https://www.facebook.com/",
+                    "login_check": {
+                        "password": 2
+                    }
+                },
+                {
+                    "url": "https://www.facebook.com/login/"
+                },
+                {
+                    "url": "https://www.facebook.com/reg/"
+                },
+                {
+                    "url": "https://www.facebook.com/login.php",
+                    "deleted": true
+                }
+            ],
+            "templates": [
+                {
+                    "name": "Facebook",
+                    "image": "https://spotphish.github.io/feeds/main/images/fb-logo_lnx.png",
+                    "sha256": "3t3utjkjnskjns"
+                },
+                {
+                    "name": "Facebook pre 2016",
+                    "image": "assets/img/fb-old.png",
+                    "sha256": "3t3utjkjnskjns",
+                    "deleted": true
+                }
+            ],
+            "safe": [
+                {
+                    "domain": "www.facebook.com"
+                },
+                {
+                    "domain": "www.en.facebook.com"
+                }
+            ]
+        },
+        {
+            "name": "Paypal",
+            "src": "http://spotphish.github.io/feeds/main/main.json",
+            "protected": [
+                {
+                    "url": "https://www.paypal.com/in/signin"
+                },
+                {
+                    "url": "https://www.paypal.com/us/cgi-bin"
+                },
+                {
+                    "url": "https://www.paypal.com/signin"
+                },
+                {
+                    "url": "https://www.paypal.com/jp/signin"
+                },
+                {
+                    "url": "https://www.paypal.com/signin/authorize"
+                }
+            ],
+            "templates": [
+                {
+                    "name": "Paypal",
+                    "image": "https://spotphish.github.io/feeds/main/images/paypal-linux.png",
+                    "sha256": "..."
+                }
+            ],
+            "safe": [
+                {
+                    "domain": "paypal.com"
+                }
+            ]
+        },
+        {
+            "name": "Google",
+            "src": "http://spotphish.github.io/feeds/main/main.json",
+            "url": [
+                {
+                    "url": "https://accounts.google.com/signin/v2/identifier"
+                },
+                {
+                    "url": "https://accounts.google.com/signin/oauth/identifier"
+                },
+                {
+                    "url": "https://accounts.google.com/signin/v2/sl/pwd"
+                }
+            ],
+            "templates": [
+                {
+                    "name": "Google 2016",
+                    "image": "https://spotphish.github.io/feeds/main/images/google-old.png",
+                    "sha256": "3t3utjkjnskjns"
+                },
+                {
+                    "name": "Google mid 2017",
+                    "image": "https://spotphish.github.io/feeds/main/images/google-logo.png",
+                    "sha256": "3t3utjkjnskjns"
+                }
+            ],
+            "safe": [
+                {
+                    "domain": "google.com"
+                },
+                {
+                    "domain": "google.co.in"
+                }
+            ]
+        },
+        {
+            "site": "Amazon",
+            "src": "http://spotphish.github.io/feeds/main/main.json",
+            "url": [
+                {
+                    "url": "https://www.amazon.in/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.com/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.co.uk/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.com.au/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.co.jp/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.cn/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.sg/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.fr/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.de/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.it/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.nl/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.es/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.ca/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.com.mx/ap/signin"
+                },
+                {
+                    "url": "https://www.amazon.com.br/ap/signin"
+                }
+            ],
+            "templates": [
+                {
+                    "name": "Amazon",
+                    "image": "https://spotphish.github.io/feeds/main/images/amazon-logo.png",
+                    "sha256": "3t3utjkjnskjns"
+                },
+                {
+                    "name": "AWS",
+                    "image": "https://spotphish.github.io/feeds/main/images/aws-logo.png",
+                    "sha256": "3t3utjkjnskjns"
+                }
+            ],
+            "safe": [
+                {
+                    "domain": "amazon.com"
+                },
+                {
+                    "domain": "amazon.in"
+                },
+                {
+                    "domain": "amazon.co.uk"
+                },
+                {
+                    "domain": "amazon.com.au"
+                },
+                {
+                    "domain": "amazon.co.jp"
+                },
+                {
+                    "domain": "amazon.sn"
+                },
+                {
+                    "domain": "amazon.sg"
+                },
+                {
+                    "domain": "amazon.fr"
+                },
+                {
+                    "domain": "amazon.dl"
+                },
+                {
+                    "domain": "amazon.ne"
+                },
+                {
+                    "domain": "amazon.se"
+                },
+                {
+                    "domain": "amazon.et"
+                },
+                {
+                    "domain": "amazon.ca"
+                },
+                {
+                    "domain": "amazon.com.mix"
+                },
+                {
+                    "domain": "amazon.com.br"
+                }
+            ]
+        },
+        {
+            "name": "Dropbox",
+            "src": "http://spotphish.github.io/feeds/main/main.json",
+            "url": [
+                {
+                    "url": "https://www.dropbox.com/"
+                },
+                {
+                    "url": "https://www.dropbox.com/business"
+                }
+            ],
+            "templates": [
+                {
+                    "name": "Dropbox-1",
+                    "image": "https://spotphish.github.io/feeds/main/images/db1.png"
+                },
+                {
+                    "name": "Dropbox-2",
+                    "image": "https://spotphish.github.io/feeds/main/images/db2.png"
+                }
+            ],
+            "safe": [
+                {
+                    "domain": "dropbox.com"
+                }
+            ]
+        },
+        {
+            "name": "wikipedia",
+            "safe": [
+                {
+                    "domain": "wikipedia.org"
+                }
+            ]
+        }
+    ]
+}
