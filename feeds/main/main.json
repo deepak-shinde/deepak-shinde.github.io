@@ -256,6 +256,7 @@
     },
     {
       "name": "wikipedia",
+      "src": "https://deepak-shinde.github.io/feeds/main/main.json",
       "safe": [
         {
           "domain": "wikipedia.org"
