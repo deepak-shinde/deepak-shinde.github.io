@@ -2,7 +2,7 @@
   "name": "default-feed",
   "url": "https://deepak-shinde.github.io/feeds/main/main.json",
   "schema": "1.0",
-  "version": "20170919140494",
+  "version": "20171010140294",
   "sites": [
     {
       "name": "Facebook",
@@ -194,7 +194,7 @@
           "domain": "amazon.co.jp"
         },
         {
-          "domain": "amazon.sn"
+          "domain": "amazon.cn"
         },
         {
           "domain": "amazon.sg"
@@ -203,22 +203,22 @@
           "domain": "amazon.fr"
         },
         {
-          "domain": "amazon.dl"
+          "domain": "amazon.de"
         },
         {
-          "domain": "amazon.ne"
+          "domain": "amazon.nl"
         },
         {
-          "domain": "amazon.se"
+          "domain": "amazon.es"
         },
         {
-          "domain": "amazon.et"
+          "domain": "amazon.it"
         },
         {
           "domain": "amazon.ca"
         },
         {
-          "domain": "amazon.com.mix"
+          "domain": "amazon.com.mx"
         },
         {
           "domain": "amazon.com.br"
