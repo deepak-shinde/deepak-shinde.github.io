@@ -163,6 +163,12 @@
         },
         {
           "url": "https://www.amazon.com.br/ap/signin"
+        },
+        {
+          "url": "https://signin.aws.amazon.com/signin"
+        },
+        {
+          "url": "https://portal.aws.amazon.com/billing/signup"
         }
       ],
       "templates": [
@@ -175,6 +181,11 @@
           "name": "AWS",
           "image": "https://deepak-shinde.github.io/feeds/main/images/aws-logo.png",
           "checksum": "1bc597bd41be741075033a872bff81ee74d8aa88097903166748086096b7ecff"
+        },
+        {
+          "name": "AWS-2017",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/aws-2017.png",
+          "checksum": "042b2261eca282f60f37ef4c91ac734baa4ae84a7b62825e33b56e49f4f9fd0c"
         }
       ],
       "safe": [
