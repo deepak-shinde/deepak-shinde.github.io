@@ -2,7 +2,7 @@
   "name": "default-feed",
   "url": "https://deepak-shinde.github.io/feeds/main/main.json",
   "schema": "1.0",
-  "version": "20171010163094",
+  "version": "20171107123394",
   "sites": [
     {
       "name": "Facebook",
@@ -39,10 +39,7 @@
       ],
       "safe": [
         {
-          "domain": "www.facebook.com"
-        },
-        {
-          "domain": "www.en.facebook.com"
+          "domain": "facebook.com"
         }
       ]
     },
@@ -71,11 +68,6 @@
           "name": "Paypal",
           "image": "https://deepak-shinde.github.io/feeds/main/images/paypal-linux.png",
           "checksum": "488377a4467f60e279e93fce31063091076d414da10f8145610210599b02ceee"
-        }
-      ],
-      "safe": [
-        {
-          "domain": "paypal.com"
         }
       ]
     },
@@ -186,53 +178,6 @@
           "image": "https://deepak-shinde.github.io/feeds/main/images/aws-2017.png",
           "checksum": "042b2261eca282f60f37ef4c91ac734baa4ae84a7b62825e33b56e49f4f9fd0c"
         }
-      ],
-      "safe": [
-        {
-          "domain": "amazon.com"
-        },
-        {
-          "domain": "amazon.in"
-        },
-        {
-          "domain": "amazon.co.uk"
-        },
-        {
-          "domain": "amazon.com.au"
-        },
-        {
-          "domain": "amazon.co.jp"
-        },
-        {
-          "domain": "amazon.cn"
-        },
-        {
-          "domain": "amazon.sg"
-        },
-        {
-          "domain": "amazon.fr"
-        },
-        {
-          "domain": "amazon.de"
-        },
-        {
-          "domain": "amazon.nl"
-        },
-        {
-          "domain": "amazon.es"
-        },
-        {
-          "domain": "amazon.it"
-        },
-        {
-          "domain": "amazon.ca"
-        },
-        {
-          "domain": "amazon.com.mx"
-        },
-        {
-          "domain": "amazon.com.br"
-        }
       ]
     },
     {
@@ -256,11 +201,6 @@
           "name": "Dropbox-2",
           "image": "https://deepak-shinde.github.io/feeds/main/images/db2.png",
           "checksum": "6e2d61093405ac6c252fcb7d195867e093707ebf07f09f5ba11cbdf125d4687d"
-        }
-      ],
-      "safe": [
-        {
-          "domain": "dropbox.com"
         }
       ]
     },
