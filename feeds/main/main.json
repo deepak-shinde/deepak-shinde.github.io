@@ -2,7 +2,7 @@
   "name": "default-feed",
   "url": "https://deepak-shinde.github.io/feeds/main/main.json",
   "schema": "1.0",
-  "version": "20171107123394",
+  "version": "20171110123394",
   "sites": [
     {
       "name": "Facebook",
@@ -67,7 +67,13 @@
         {
           "name": "Paypal",
           "image": "https://deepak-shinde.github.io/feeds/main/images/paypal-linux.png",
-          "checksum": "488377a4467f60e279e93fce31063091076d414da10f8145610210599b02ceee"
+          "checksum": "488377a4467f60e279e93fce31063091076d414da10f8145610210599b02ceee",
+          "delete": true
+        },
+        {
+          "name": "Paypal-old-logo",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/pp-old.png",
+          "checksum": "88820f238888b603bce20e915dec2049c86b97dde6863c09bd00be3a0e84dbd8"
         }
       ]
     },
@@ -93,8 +99,13 @@
         },
         {
           "name": "Google mid 2017",
-          "image": "https://deepak-shinde.github.io/feeds/main/images/google-logo.png",
-          "checksum": "9e1328a484065a4b5e37e78318ced3d284c989a3f8dbfa898a33aad8ce083765"
+          "image": "https://deepak-shinde.github.io/feeds/main/images/google-logo-big.png",
+          "checksum": "e097bc85e7f1e6d47f8f03f533eff7c3321a2268dc169e989c36cc6e00f93b3e"
+        },
+        {
+          "name": "Gmail Icon",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/gmail-icon.png",
+          "checksum": "d8935891857aec9f7a0de5a2e4def193dda3f67ff6b6f6135d60d24508003c80"
         }
       ],
       "safe": [
@@ -201,6 +212,11 @@
           "name": "Dropbox-2",
           "image": "https://deepak-shinde.github.io/feeds/main/images/db2.png",
           "checksum": "6e2d61093405ac6c252fcb7d195867e093707ebf07f09f5ba11cbdf125d4687d"
+        },
+        {
+          "name": "Dropbox 2017",
+          "image": "https://deepak-shinde.github.io/feeds/main/images/dropbox-2017.png",
+          "checksum": "e41a7259bb599c84c647a3c99c24044cdde177fdeae982183b6418d123fe4364"
         }
       ]
     },
